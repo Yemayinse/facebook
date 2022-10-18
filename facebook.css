@@ -1,0 +1,443 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    overflow-x: hidden;
+    /* position: absolute; */
+}
+
+img {
+    border-radius: 50%;
+    width: 2vw;
+    padding-top: 5px;
+
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2em;
+    background-color: white;
+    
+
+}
+
+.face_put {
+    display: flex;
+    gap: 1em;
+    font-size: 30px;
+}
+
+.msg {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: .5em;
+    font-size: 25px;
+    position: relative;
+
+}
+
+.msg button {
+padding: 5px;
+    gap: 2em;
+    background-color: transparent;
+    border: none;
+}
+.msg span{
+    /* display: flex; */
+    color: white;
+    margin-right: -2em;
+    /* margin-bottom: -2em; */
+    font-size: 15px;
+    /* width: 1px; */
+    /* height: 2px; */
+    position: relative;
+    background-color: red;
+}
+.msg div:nth-child(1){
+    background-color: rgb(231, 231, 231);
+    border-radius: 50%;
+
+
+}
+.msg div:nth-child(2){
+    background-color: rgb(231, 231, 231);
+    border-radius: 50%;
+    
+
+}
+.msg div:nth-child(3){
+    background-color: rgb(231, 231, 231);
+    border: none;
+    border-radius: 50%;
+}
+
+.home {
+    display: flex;
+    margin-right: 7em;
+    font-size: 30px;
+    gap: 3em;
+}
+
+.home button {
+    background-color: transparent;
+    border: none;
+
+}
+
+.face_put input {
+    border: none;
+    border-radius: 15px;
+    background-color: aliceblue;
+    font-size: 20px;
+    padding: 5px;
+    padding-top: 7px;
+    outline: none;
+}
+
+.search {
+    font-size: 15px;
+    background-color: aliceblue;
+    margin-left: -20px;
+    border: none;
+    border-radius: 15px;
+}
+
+.search button {
+    border: none;
+    background-color: aliceblue;
+    padding-left: 1em;
+}
+
+.facebook button {
+    background-color: blue;
+    border: none;
+    border-radius: 45%;
+    padding: 5px 10px 0px 10px;
+    color: white;
+    font-weight: 900;
+}
+span{
+    border-radius: 50%;
+    background-color: green;
+    height: 1vh;
+    width: .5vw;
+    margin-right: 1.5em;
+    position: absolute;
+    margin-top: -3.6em;
+}
+nav div{
+    display: flex;
+align-items: center;
+text-align: center;
+margin: 1em 0px 0px 2em;
+padding: .5em;
+gap: 1em;
+}
+footer div{
+    display: flex;
+    /* gap: .01em; */
+    margin: 1em 0px 0px 2em;
+    align-items: center;
+/* text-align: center; */
+}
+.line{
+    margin-left: 2em;
+    margin-right: 4em;
+}
+nav h2{
+    margin-left: 1.3em;
+    margin-top: .5em;
+    font-size: 20px;
+}
+footer h2{
+      font-size: 20px;
+      margin: 1em 0px 0px 1em;
+      
+
+}
+nav{
+    position: absolute;
+}
+.br{
+    display: block;
+}
+footer{
+    position: relative;
+    margin-left: 68em;
+
+}
+.uni{
+    display: block;
+}
+footer img{
+    border-radius: 10px;
+    width: 6em;
+}
+.birth{
+    margin-top: 2em;
+    padding-left: 1em;
+    background-color: white;
+    gap: .5em;
+
+}
+.mag{
+    margin-top: 0%;
+    margin-bottom: 1em;
+    background-color: white;
+}
+.birth p{
+    margin-left: 6em;
+
+
+}
+.roW{
+    margin-top: 1em;
+    margin-left: 2em;
+}
+.profile{
+    gap: 5em;
+}
+.row{
+    margin-left: 1.5em;
+}
+.you{
+    gap: 1em;
+}
+.you h3{
+    padding-right: 6.2em;
+}
+footer h2{
+    margin-left: 1.3em;
+}
+article img{
+    border-radius: 50%;
+    width: 2vw;
+    height: 5vh;
+   
+}
+article div{
+    gap: 1em;
+}
+.circle{
+    border-radius: 50%;
+    background-color: green;
+    height: 1vh;
+    width: .5vw;
+    margin-left: 3.5em;
+    position: relative;
+    margin-top: -.5em;
+
+}
+
+.fa-user{
+    color: rgb(106, 106, 231);
+}
+.fa-flag{
+    color: rgb(177, 89, 89);
+}
+.fa-calendar{
+    color: rgb(255, 210, 210);
+}
+.fa-group{
+    background-color: rgb(106, 106, 231);
+    color: white;
+    padding: 3px;
+    border-radius: 50%;
+}
+.fa-star{
+    color: rgb(106, 106, 231);
+}
+.fa-angle-down{
+    background-color: rgb(216, 228, 236);
+    padding: 5px;
+    border-radius: 50%;
+}
+.fa-gift{
+    color: rgb(106, 106, 231);
+}
+.icon .fa{
+    font-size: 30px;
+}
+.blue img{
+    border: 3px solid blue;
+
+}
+.birth i{
+    font-size: 30px;
+}
+.tire{
+    display: flex;
+    /* position: relative; */
+}
+.tire div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    margin: .1em;
+    max-height: 4em;
+}
+.tire img{
+    border-radius: 10px;
+    width: 3.5em;
+    height: 3.5em;
+    
+    
+}
+.tire i{
+    border-radius: 50%;
+    border: 4px solid rgb(248, 248, 248);
+    color: blue;
+    margin-top: -.4em;
+    z-index: 4;
+}
+.story h3{
+    background-color: white;
+    margin-top: -1.5em;
+    border-radius: 10px;
+    width: 6em;
+    font-size: 20px;
+    padding-top: 1em;
+}
+.story img{
+    z-index: 2;
+}
+
+.btn button{
+    border: none;
+    font-size: 25px;
+    background-color: transparent;
+    margin-left: 3em;
+    padding: 1em 0px 1em 0px;
+}
+section{
+    margin-right: 27.4em;
+    margin-top: -66em;
+    margin-left: 27em;
+    background-color: white;
+    padding-bottom: 2em;
+}
+.heig img{
+    height: 7em;
+}
+.act img{
+margin-right: 2em;
+    border-radius: 50%;
+    height: 5vh;
+    width: 2vw;
+     margin-top: -4.7em;
+     border: 4px solid blue;
+}
+.act h6{
+    color: white;
+    margin-top: 2.5em;
+}
+pre div{
+display: flex;
+/* gap: 2em; */
+}
+.pr div{
+    margin-left: 4em;
+    align-items: center;
+    text-align: center;
+    gap: .5em;
+}
+.yourmind{
+    margin-left: 2em;
+    gap: .5em;
+}
+.yourmind img{
+    height: 3em;
+}
+.yourmind input{
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 0px 12em 0px 1em;
+    background-color: aliceblue;
+    outline: none;
+}
+pre{
+    background-color: white;
+    margin-left: 33.2em;
+    margin-top: 2em;
+    margin-right: 34em;
+    border-radius: 10px;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-photo{
+    color: green;
+}
+.fa-group{
+    color: yellowgreen;
+    background: none;
+}
+.pt div{
+    margin-left: 4em;
+    align-items: center;
+    text-align: center;
+    gap: .8em;
+}
+.pt i{
+    margin-left: 18em;
+}
+.last img{
+height: 60vh;
+width: 39vw;
+border-radius: 2px;
+}
+.pl div{
+    margin-left: 2em;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+.pl i{
+    padding: .2em;
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+}
+.ps div{
+    justify-content: space-between;
+    margin-right: 12em;
+    padding-left: 1em;
+
+}
+.your{
+    margin-left: 2em;
+    gap: .5em;
+}
+.your img{
+    height: 3em;
+}
+.your input{
+    /* position: absolute; */
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 0px 12em 0px 1em;
+    background-color: aliceblue;
+    outline: none;
+}
+.your i{
+    margin-left: -3em;
+    margin-top: .5em;
+    position: relative;
+    color: black;
+    background-color: transparent;
+}
